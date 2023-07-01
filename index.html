@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guess The Number</title>
+<script src="./Js/index.js" defer></script>
+<link rel="stylesheet" href="css/styel.css">
+</head>
+<body>
+
+<div class="title">
+    <img src="Images/logo.gif" alt="">
+    <h1>GUESS THE NUMBER</h1>
+</div>
+
+
+<div class="rules-container active">
+    <h2>How to Play:</h2>
+    <ul>
+        <li>The Magician will pick a secret number and put it in his hat.</li>
+        <li>You guess what number it is.</li>
+        <li>If your guess is too high or too low, FunBrain will give you a hint.</li>
+        <li>See how many turns it takes you to win!</li>
+    </ul>
+    <button class="start-button">Start Game</button>
+</div>
+
+<div class="play-area container">
+    <div class="image">
+        <img src="Images/magicien.gif">
+    </div>
+    <div class="content">
+        <p class="intro">Pick a number between 1 and 10.
+            You will have 5 turns</p>
+        <span class="hint-text"></span>  
+        <br>  
+        <p class="about-turn"></p>
+        <br>
+        <input type="number" class="guessNumber">
+        <br>
+        <button class="guess-btn">Guess</button>
+    </div>    
+</div>
+
+<div class="winner">
+    <p class="winner-text">	It took you 2 turns to guess the number, which was 10.</p>
+    <img src="images/winnerr.gif" alt="">
+    <br>
+    <a href="" class="play-agin-text">Play again</a>
+</div>
+
+<div class="looser">
+    <p class="looser_text">	</p>
+    <img src="Images/looser.gif" alt="">
+    <br>
+    <a href="" class="play-agin-text">Play again</a>
+</div>
+
+</body>
+</html>

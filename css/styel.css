@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+.active {
+  display: block !important;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 5px;
+}
+.title {
+  width: 100%;
+  background-color: #ffc107;
+  text-align: center;
+  padding: 6px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.18);
+  color: #fff;
+}
+.rules-container ul {
+  list-style: inside;
+  margin-top: 20px;
+}
+.rules-container ul li {
+  margin-bottom: 20px;
+}
+.rules-container {
+  margin-top: 113px;
+  padding-left: 20px;
+  display: none;
+}
+.start-button {
+  background: #ffd80c;
+  border-radius: 5px;
+  border: none;
+  width: 180px;
+  margin-top: 15px;
+  padding: 10px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  display: block;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.title img {
+  width: 69px;
+}
+.title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.play-area {
+  text-align: center;
+  margin-top: 75px;
+  display: none;
+}
+.guessNumber {
+  height: 33px;
+  border: 2px solid;
+  padding: 0px 5px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 126px;
+  outline: none;
+}
+.guessNumber:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.play-area .intro {
+  font-weight: 800;
+  font-size: 20px;
+}
+span.hint-text {
+  color: red;
+  font-weight: 600;
+  margin-top: 15px;
+  display: block;
+}
+.about-turn {
+  font-weight: 800;
+  display: block;
+}
+.looser {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 82px;
+  display: none;
+}
+.looser img {
+  width: 200px;
+  height: 158px;
+  margin-top: 45px;
+}
+.looser p {
+  font-weight: 700;
+  font-size: 25px;
+  color: red;
+}
+.winner {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 82px;
+  display: none;
+}
+.winner img {
+  width: 200px;
+  height: 158px;
+  margin-top: 45px;
+}
+.winner p {
+  font-weight: 700;
+  font-size: 25px;
+  color: green;
+}
+button.guess-btn {
+  padding: 7px 42px;
+  margin-top: 20px;
+  font-weight: 600;
+  background: lightyellow;
+  cursor: pointer;
+}
+.play-agin-text {
+  margin-top: 22px;
+  display: block;
+}
+.play-area.container img {
+    width: 97px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+@media(max-width:450px)
+{
+    .winner p {
+        font-size: 19px;
+    }
+    .title {
+        font-size: 11px;
+    }
+    .rules-container ul li {
+        font-size: 14px;
+    }
+}
